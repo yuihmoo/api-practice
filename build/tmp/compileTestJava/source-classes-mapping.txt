@@ -1,2 +1,0 @@
-kr/co/nandsoft/DBConnTest.java
- kr.co.nandsoft.DBConnTest

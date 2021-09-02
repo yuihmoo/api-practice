@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="api:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/api_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="api/web/웹" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="api-practice" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-codec-1.11" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="httpcore-4.4.13" />
+          <element id="library" level="project" name="httpclient-4.5.13" />
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="jackson-core-2.9.8" />
+          <element id="library" level="project" name="jackson-databind-2.9.8" />
+          <element id="library" level="project" name="junit-4.10" />
+          <element id="library" level="project" name="json-simple-1.1.1" />
+          <element id="library" level="project" name="standard" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.26" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
